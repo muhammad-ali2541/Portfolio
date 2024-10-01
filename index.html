@@ -29,6 +29,28 @@
   <link rel="stylesheet" type="text/css" href="../assets/css/virtual.css">
   
   <link rel="stylesheet" type="text/css" href="../assets/css/topbar.virtual.css">
+
+  <style>
+    /* CSS for the WhatsApp icon */
+    .whatsapp-icon {
+            position: fixed;
+            bottom: 20px; /* Adjust the distance from the bottom as needed */
+            left: 20px; /* Adjust the distance from the left as needed */
+            z-index: 1000; /* Ensure the icon appears above other content */
+            width: 70px; /* Set the width of the icon (adjust as needed) */
+            height: 70px; /* Set the height of the icon (adjust as needed) */
+            border-radius: 50%; /* Make the icon circular */
+            background-color: #25d366; /* Set the background color of the icon */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .whatsapp-icon img {
+            width: 70%; /* Adjust the size of the actual WhatsApp icon image */
+        }
+</style>
+  
 </head>
 <body class="theme-red">
   
@@ -896,6 +918,9 @@ JavaScript.</p>
   <script src="../assets/js/topbar-virtual.js"></script>
 
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
-  
+  <!-- WhatsApp icon -->
+<a href="https://wa.me/923175770330" target="_blank" class="whatsapp-icon">
+  <img src="./assets/img/whatsapp-icon.png" alt="WhatsApp">
+</a>
 </body>
 </html>
